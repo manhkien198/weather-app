@@ -85,8 +85,6 @@ export default function SearchBar({ setData }: SearchBarProps) {
         speak(textToSpeech);
         return;
       }
-
-      speak('Try again');
     }
   }, [transcript]);
 
